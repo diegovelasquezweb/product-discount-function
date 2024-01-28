@@ -2,15 +2,23 @@
 
 client_id = "c3e72c451f52cb21a5eb07e7f7dcbc81"
 name = "product-discount-function"
-application_url = "https://example.com"
+application_url = "https://round-disco-identifier-power.trycloudflare.com"
 embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "diegocheckout.myshopify.com"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products"
+scopes = "write_products, write_discounts"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [
+  "https://round-disco-identifier-power.trycloudflare.com/auth/callback",
+  "https://round-disco-identifier-power.trycloudflare.com/auth/shopify/callback",
+  "https://round-disco-identifier-power.trycloudflare.com/api/auth/callback"
+]
 
 [webhooks]
 api_version = "2024-01"
