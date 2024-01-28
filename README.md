@@ -20,5 +20,5 @@ Follow these steps to add a new discount extension to Discountz app:
 
 ## Commands
 
-### `npm run dev`
-### `npm run deploy`
+`npm run dev`
+`npm run deploy`
