@@ -12,11 +12,11 @@ Follow these steps to add a new discount extension to Discountz app:
 
 4. **Create Function Logic**: Define the logic for your function in the `run.js` file.
 
-   On Remix, create the provider [here](https://shopify.dev/docs/apps/selling-strategies/discounts/experience/ui).
+5. **Create the Provider on Remix**: On Remix, create the provider by following the guidelines [here](https://shopify.dev/docs/apps/selling-strategies/discounts/experience/ui).
 
-5. **Create the Interface**: Use Remix to create the interface for your discount.
+6. **Create the Interface**: Use Remix to create the interface for your discount.
 
-6. **Deploy the Extension**: Follow the instructions [here](https://shopify.dev/docs/apps/deployment/web) to deploy your extension.
+7. **Deploy the Extension**: Follow the instructions [here](https://shopify.dev/docs/apps/deployment/web) to deploy your extension.
 
 ## Commands
 
