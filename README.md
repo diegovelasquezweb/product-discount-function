@@ -17,3 +17,8 @@ Follow these steps to add a new discount extension to Discountz app:
 5. **Create the Interface**: Use Remix to create the interface for your discount.
 
 6. **Deploy the Extension**: Follow the instructions [here](https://shopify.dev/docs/apps/deployment/web) to deploy your extension.
+
+## Commands
+
+### `npm run dev`
+### `npm run deploy`
